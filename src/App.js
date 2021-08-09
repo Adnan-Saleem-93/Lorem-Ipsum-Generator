@@ -6,8 +6,10 @@ import "./App.css";
 
 function App() {
   const [value, setValue] = useState(0);
-  const handleChange = (event) => {
-    setValue(event.target.value);
+
+  // function to handle click event of 'Generate' button
+  const handleClick = (newValue) => {
+    setValue(newValue);
   };
   return (
     <Container className="App">
@@ -15,10 +17,10 @@ function App() {
         <h2 className="heading">Generate Random Lorem Ipsum Paragraphs</h2>
       </Row>
       <Row>
-        <ValueSelection value={value} onChange={handleChange} />
+        <ValueSelection onBtnClick={handleClick} />
       </Row>
       <Row>
-        <ParagraphSection value={value} />
+        <ParagraphSection paraLength={value} />
       </Row>
     </Container>
   );

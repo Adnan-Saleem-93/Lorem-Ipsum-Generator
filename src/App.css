@@ -19,6 +19,7 @@
 .form-range {
   width: 75% !important;
   margin: 1rem auto !important;
+  margin-bottom: 0 !important;
 }
 .btn {
   text-align: center;
@@ -28,4 +29,21 @@
 .btn:hover {
   color: #fff !important;
   background-color: #174992 !important;
+}
+.paragraph {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 75%;
+  background-color: rgb(241, 241, 255);
+}
+.paragraph > p {
+  margin-bottom: 0 !important;
+}
+.helper-text {
+  font-size: smaller;
+  color: gray;
+  font-weight: 400;
+  margin: 0;
 }
