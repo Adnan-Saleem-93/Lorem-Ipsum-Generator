@@ -47,3 +47,21 @@
   font-weight: 400;
   margin: 0;
 }
+#scroll-btn {
+  position: fixed;
+  right: 10vw;
+  top: 40vw;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #174992;
+}
+#scroll-btn:hover {
+  background-color: transparent !important;
+}
+.fa-angle-double-up {
+  color: white !important;
+}
+#scroll-btn:hover .fa-angle-double-up {
+  color: #174992 !important;
+}

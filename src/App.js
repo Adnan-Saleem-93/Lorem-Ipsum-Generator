@@ -2,15 +2,16 @@ import React, {useState} from "react";
 import {Container, Row} from "react-bootstrap";
 import ValueSelection from "./components/value-selection";
 import ParagraphSection from "./components/paragraph-section";
+import ScrollButton from "./components/scroll-button";
 import "./App.css";
 
 function App() {
   const [value, setValue] = useState(0);
 
-  // function to handle click event of 'Generate' button
   const handleClick = (newValue) => {
     setValue(newValue);
   };
+
   return (
     <Container className="App">
       <Row>
@@ -22,6 +23,7 @@ function App() {
       <Row>
         <ParagraphSection paraLength={value} />
       </Row>
+      <ScrollButton />
     </Container>
   );
 }
