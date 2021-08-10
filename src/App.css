@@ -49,19 +49,16 @@
 }
 #scroll-btn {
   position: fixed;
-  right: 10vw;
-  top: 40vw;
+  right: 5%;
+  top: 70%;
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #174992;
+  background-color: #335e9e;
 }
 #scroll-btn:hover {
-  background-color: transparent !important;
+  background-color: #164386 !important;
 }
 .fa-angle-double-up {
   color: white !important;
-}
-#scroll-btn:hover .fa-angle-double-up {
-  color: #174992 !important;
 }
