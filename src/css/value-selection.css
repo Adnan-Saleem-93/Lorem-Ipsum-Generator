@@ -1,0 +1,26 @@
+.selected-paragraphs {
+  font-size: x-large;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.form-range {
+  width: 75% !important;
+  margin: 1rem auto !important;
+  margin-bottom: 0 !important;
+}
+.btn {
+  text-align: center;
+  border-color: #174992 !important;
+  color: #174992 !important;
+}
+.btn:hover {
+  color: #fff !important;
+  background-color: #174992 !important;
+}
+
+.helper-text {
+  font-size: smaller;
+  color: gray;
+  font-weight: 400;
+  margin: 0;
+}

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Button, OverlayTrigger, Tooltip} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleDoubleUp} from "@fortawesome/free-solid-svg-icons";
+import "../css/scroll-button.css";
 
 const ScrollButton = () => {
   const [scrollPosition, setScrollPosition] = useState(window.scrollY);

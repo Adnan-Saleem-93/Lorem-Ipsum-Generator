@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
+import "../css/paragraph-section.css";
 import {lorem_ipsum} from "../utils/constants";
 
 const ParagraphSection = ({paraLength}) => {

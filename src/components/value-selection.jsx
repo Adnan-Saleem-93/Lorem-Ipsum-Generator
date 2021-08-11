@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {Form, Button, Col} from "react-bootstrap";
+import "../css/value-selection.css";
 
 const ValueSelection = ({onBtnClick}) => {
   const [value, setValue] = useState(0);
@@ -9,7 +10,7 @@ const ValueSelection = ({onBtnClick}) => {
   return (
     <>
       <Col md={{span: 3, offset: 4}}>
-        <p className="paragraph-text">Paragraphs: {value}</p>
+        <p className="selected-paragraphs">Paragraphs: {value}</p>
       </Col>
       <Col md="2">
         <Button variant="outline-primary" onClick={() => onBtnClick(value)}>
