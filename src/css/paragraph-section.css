@@ -8,4 +8,5 @@
 }
 .paragraph > p {
   margin-bottom: 0 !important;
+  text-align: justify !important;
 }
